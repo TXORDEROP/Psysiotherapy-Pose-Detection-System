@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Segoe UI', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url('images/bg-image.png') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    color: #2d2d2d;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 70px;
+}
+
+.studio-name {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+/* Auth Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.login-btn,
+.register-btn {
+    padding: 0.6rem 1.4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.login-btn {
+    background-color: #b3a89d;
+    color: white;
+}
+
+.register-btn {
+    background-color: transparent;
+    color: #2d2d2d;
+    border: 2px solid #2d2d2d;
+}
+
+/* Main Content */
+.content {
+    max-width: 600px;
+    padding-top: 3rem;
+}
+
+.tagline {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.headline {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #2d2d2d;
+}
+
+.subtext {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Menu Button */
+.menu-button {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    font-size: 1rem;
+    color: #2d2d2d;
+    cursor: pointer;
+}

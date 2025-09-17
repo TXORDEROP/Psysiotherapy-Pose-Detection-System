@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga Studio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="hero">
+        <header class="navbar">
+            <img src="{{ url_for('static', filename='images/lotus-logo.png') }}" alt="Logo" class="logo" />
+            <h1 class="studio-name">Yoga Studio</h1>
+            <div class="auth-buttons">
+                <button class="login-btn">LOGIN</button>
+                <button class="register-btn">REGISTER</button>
+            </div>
+        </header>
+
+        <div class="content">
+            <p class="tagline">Yoga, Uncomplicated</p>
+            <h1 class="headline">Start Your Journey<br>to Inner Peace</h1>
+            <p class="subtext">Your Body, Your Ritual</p>
+
+            <div class="social-icons">
+                <img src="{{ url_for('static', filename='icons/facebook.svg') }}" alt="Facebook">
+                <img src="{{ url_for('static', filename='icons/youtube.svg') }}" alt="YouTube">
+                <img src="{{ url_for('static', filename='icons/instagram.svg') }}" alt="Instagram">
+                <img src="{{ url_for('static', filename='icons/linkedin.svg') }}" alt="LinkedIn">
+            </div>
+        </div>
+
+        <div class="menu-button">
+            + Menu
+        </div>
+    </div>
+</body>
+</html>
