@@ -116,7 +116,3 @@ python main.py
 ☁️ Cloud-based analytics & remote physiotherapy sessions.
 
 📡 Integration with wearable sensors for enhanced accuracy.
-
-
-Under the guidance of Prof. Jaitee Bankar
-Department of Information Technology, R.M.D. Sinhgad School of Engineering, Pune
